@@ -9,6 +9,7 @@ namespace Financiera.Dominio
     public class Cliente
     {
         public int CodigoCliente { get; private set; }
+
         public string NombreCliente { get; private set; }
         public DateTime FechaNacimiento { get; private set; }
         private Cliente()
